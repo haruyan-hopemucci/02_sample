@@ -1,0 +1,22 @@
+@use 'usesample' as ske;
+@use 'akb';
+
+#main {
+  width: 600px;
+  p {
+    margin: 0 0 1em;
+    em {
+      color: #f00;
+    }
+  }
+  small {
+    font-size: small;
+  }
+  button{
+    @include ske.kakumaru;
+  }
+  div{
+    @include akb.kakumaru;
+  }
+}
+
